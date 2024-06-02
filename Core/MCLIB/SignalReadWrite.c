@@ -91,9 +91,9 @@ void readCurrent(uint16_t* Iuvw_AD, float* Iuvw){
 
 void readHallSignal(uint8_t* Hall){
 	//Hall[0] = u, Hall[1] = v, Hall[2] = w
-	Hall[0] = HAL_GPIO_ReadPin(H1_GPIO_Port, H1_Pin);
-	Hall[1] = HAL_GPIO_ReadPin(GPIOB, H2_Pin);
-	Hall[2] = HAL_GPIO_ReadPin(GPIOB, H3_Pin);
+	Hall[0] = 0b00000001 & ~HAL_GPIO_ReadPin(H1_GPIO_Port, H1_Pin);
+	Hall[1] = 0b00000001 & ~HAL_GPIO_ReadPin(GPIOB, H2_Pin);
+	Hall[2] = 0b00000001 & ~HAL_GPIO_ReadPin(GPIOB, H3_Pin);
 }
 
 void readElectFreqFromHallSignal(float* electFreq){
