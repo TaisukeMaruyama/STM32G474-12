@@ -1,0 +1,4 @@
+SixsStep.c:296:13:calcOutputMode	7
+SixsStep.c:55:6:sixStepDrive	13
+SixsStep.c:174:9:calcVoltageMode	2
+SixsStep.c:83:6:calcElectAngle	8

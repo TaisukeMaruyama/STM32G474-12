@@ -1,0 +1,7 @@
+VectorControl.c:84:13:uvw2ab.constprop	1
+VectorControl.c:96:13:ab2dq.constprop	1
+VectorControl.c:141:13:dq2ab.constprop	1
+VectorControl.c:150:13:Vuvw2Duty.constprop	1
+VectorControl.c:42:6:VectorControlTasks	2
+VectorControl.c:64:6:OpenLoopTasks	2
+VectorControl.c:244:6:calcElectAngleEstimate	2

@@ -1,0 +1,7 @@
+../Core/MCLIB/VectorControl.c:84:13:uvw2ab.constprop	0	static
+../Core/MCLIB/VectorControl.c:96:13:ab2dq.constprop	16	static
+../Core/MCLIB/VectorControl.c:141:13:dq2ab.constprop	16	static
+../Core/MCLIB/VectorControl.c:150:13:Vuvw2Duty.constprop	16	static
+../Core/MCLIB/VectorControl.c:42:6:VectorControlTasks	56	static
+../Core/MCLIB/VectorControl.c:64:6:OpenLoopTasks	24	static
+../Core/MCLIB/VectorControl.c:244:6:calcElectAngleEstimate	56	static
